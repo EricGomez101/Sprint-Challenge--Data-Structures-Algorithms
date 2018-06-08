@@ -1,12 +1,12 @@
 Add your answers to the questions below.
 
 1. What is the runtime complexity of your `depthFirstForEach` method?
-
+  O(log(N))
 2. What is the space complexity of your `depthFirstForEach` function?
-
+  O(1)
 3. What is the runtime complexity of your `breadthFirstForEach` method?
-
-4. What is the space complexity of your `breadthFirstForEach` method? 
+  O(N log(n))
+4. What is the space complexity of your `breadthFirstForEach` method?
 
 5. What is the runtime complexity of your `heapsort` function?
 

@@ -1,11 +1,15 @@
-const heapsort = (arr) => {
+const heapsort = arr => {
   /* Your code here */
   const heap = new Heap();
-  let min = arr[0];
-  for (let i = 0; i < arr.length; i++) {
-    if()
+  arr.forEach(i => {
+    heap.insert(i);
+  });
+  const newArr = [];
+  while (heap.getSize()) {
+    newArr.unshift(heap.delete());
   }
-};
+  return newArr;
+}
 
 
 class Heap {
